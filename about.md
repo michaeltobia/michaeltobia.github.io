@@ -5,16 +5,23 @@ url: index.html
 image: http://unsplash.it/400?random
 ---
 
-## Overview
-Lorem ipsum dolor sit amet, purto tota in vel, exerci discere apeirian has in. Nec noster iracundia eu, utroque facilis ad has. Alii argumentum no his, omnis iusto scripta vim in, ipsum ridens mel at. Has homero phaedrum no, ea autem affert facilis usu, has possim meliore perpetua id. Errem iisque mea ex, option ocurreret no est. Sea facer ullamcorper ne, cu dictas discere repudiandae sea.
+## About Me
 
-His nemore audiam consequat ad, no augue choro assueverit mei. Zril offendit tincidunt ne quo. At commodo integre alienum sea, cu vocent fuisset suscipit nam. Eum ex tation omnesque adversarium, mutat autem putant te nam. Id vix facilis complectitur, vis vitae vivendo euripidis ea, fugit eirmod an vix.
+I'm a Master's student at Northwestern University studying robotics with a focus
+on robotic manipulation, mechanics, and control.
 
-Ad case nemore equidem mea. Duo te iuvaret appetere appellantur, sint scaevola usu cu. Eum ne aeque ridens prompta. At legendos vulputate eos, pro illum iuvaret cu, ludus vituperata usu no.
+With passion and determination I seek to create novel and useful problem solutions
+in all of my projects. My background includes a Bachelor's of Science in engineering
+from the University of Houston along with a wide range of project and job experience.
+Currently I am working on a generalized force control package with Rethink Robotics' Sawyer
+and an end-effector-attached Force/Torque sensor.
 
-Mel magna discere in. Mea ea dicit homero perfecto. Eam nulla facete scribentur in. Vide volutpat laboramus est cu, usu cu impetus dignissim. Ex pro decore impetus. Ius nihil iisque deterruisset an, ex sanctus verterem his. Doming prompta insolens est ut.
+If you would like to get a hold of me, please find my contact information on this
+site, or feel free to email me at michaeledwardtobia@gmail.com
+
+
 
 ### Research interests
-* Interest 1
-* Interest 2
-* Interest 3
+* Robotic Manipulation
+* Mechanical Design
+* Control Systems
