@@ -2,7 +2,7 @@
 layout: project
 title: Image Stitch
 date: December 15, 2018
-image: https://michaeltobia.github.io/public/images/baxter_laundry.png
+image: https://michaeltobia.github.io/public/images/image_stitch_project.jpg
 permalink: "/image-stitch.html"
 ---
 
