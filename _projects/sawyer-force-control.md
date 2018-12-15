@@ -78,7 +78,7 @@ to prevent accidents. The following gif is a short example of this velocity cont
 running.
 
 <!-- Velocity control gif -->
-![testgif](https://www.doggifpage.com/gifs/148.gif)
+![A demo of the sawyer_vel_ctrl launch file](https://michaeltobia.github.io/public/images/vel_ctrl_demo.gif)
 
 #### 4. Sawyer Force Control
 After connecting to both Sawyer and the F/T sensor (which also connects over
