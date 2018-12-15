@@ -1,8 +1,9 @@
 ---
 layout: project
-title: Project 1
-date: September 22, 2014
-image: http://unsplash.it/400/200?random
+title: Image Stitch
+date: December 15, 2018
+image: https://michaeltobia.github.io/public/images/baxter_laundry.png
+permalink: "/image-stitch.html"
 ---
 
 ## Overview
