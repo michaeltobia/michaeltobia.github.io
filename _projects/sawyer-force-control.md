@@ -60,15 +60,15 @@ then interpolated from these commands and published to be visualized in RViz.
 The result is a simulated Sawyer following an end effector trajectory described
 in `traj_gen.py`, as seen below.
 
+<!-- SIMULATOR GIF -->
 ![testgif](https://www.doggifpage.com/gifs/155.gif)
 
-<!-- SIMULATOR GIF -->
- 
+
 #### 3. Sawyer Velocity Control
 After connecting to Sawyer, running `sawyer_vel_ctrl.launch` begins a velocity
 control loop that drives Sawyer's end effector to the trajectory defined in
 `traj_gen.py`. Running Sawyer in velocity control mode means its joints can be
-ran as fast as the joint velocity limits will allow. **This is very fast.** If
+ran as fast as the internal joint velocity limits will allow. **This is very fast.** If
 given a quick trajectory in `traj_gen.py` Sawyer would happily track this position
 fast enough to damage something or injure something in the way. Joint velocity
 commands are limited in `sawyer_vel_ctrl.py` to 0.6 rad/sec maximum because of this,
@@ -76,6 +76,7 @@ to prevent accidents. The following gif is a short example of this velocity cont
 running.
 
 <!-- Velocity control gif -->
+![testgif](https://www.doggifpage.com/gifs/148.gif)
 
 #### 4. Sawyer Force Control
 After connecting to both Sawyer and
