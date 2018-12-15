@@ -37,6 +37,8 @@ If you are interested in learning more about the ROS package I made for this pro
 including how to use the package yourself, please see the extremely detailed README on
 [the packages GitHub repository](https://github.com/michaeltobia/sawyer_velctrlsim)
 
+Please note that the concepts portion of this page much lower down is under construction.
+
 ## Results
 
 #### 1. Adapter Plates
