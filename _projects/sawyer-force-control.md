@@ -93,11 +93,21 @@ gif show the force controller attempting to maintain a 0 Newton force in the x d
 hand as I try to apply force to the end effector.
 
 <!-- Force Control Gif -->
+![testgif](https://www.doggifpage.com/gifs/104.gif)
 
 
-\begin{equation}
-\int \frac{1}{2} l(x,u) dx = 0
-\end{equation}
+## Some Concepts
+#### Velocity Control
+The control nodes implemented in this project are largely based off of Chapter
+11 in Modern Robotics by Dr. Kevin Lynch. Specifically, they're based off the book's
+definition of task-space control. Minus the use of quaternions, the code closely mimics
+the controls described on this page, as described as well in the code comments.
+* Velocity control in the task-space acts to drive the robot's end effector to a desired
+end effector position and rotation by calculating the difference between the current position
+and the desired position, applying a control law to the calculated error, and sending commands
+to change the speed of each joint on the robot. To summarize the control law:
+* Given a current end effector configuration $$ X( t) \in SE( 3) $$
+
 
 \begin{equation}
 \ V_{b}( t) =[ Ad_{X^{-1} X_{d}}] V_{d}( t) +K_{p} X_{e}( t) +K_{i} \int X_{e}( t) dt
