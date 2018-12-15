@@ -149,7 +149,7 @@ two parts, the first being inertial effects and the second being a combination
 of gravity and Coriolis effects, as follows
 
 \begin{equation}
-F_{b} =\Lambda ( \theta ) \dot{V}_{b} +\eta ( \theta ,V_{b})
+F_{b} = \Lambda ( \theta ) \dot{V}_{b} +\eta ( \theta ,V_{b})
 \end{equation}
 
 * We can calculate each joints torques using the psuedoinverse of the body
