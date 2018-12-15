@@ -79,7 +79,20 @@ running.
 ![testgif](https://www.doggifpage.com/gifs/148.gif)
 
 #### 4. Sawyer Force Control
-After connecting to both Sawyer and
+After connecting to both Sawyer and the F/T sensor (which also connects over
+ethernet), running the `unidirectional_force_control.launch` file will start
+the packages interaction control capabilities. This launch file attempts to drive
+the wrench measured by the F/T sensor at the end effector to a desired wrench
+defined in `force_ctrl_traj_gen.py`. Unlike traditional hybrid force-motion control,
+described in detail below, this force control attempts to define trajectories
+in an attempt to counteract the perceived force error at the end effector. The
+end effector is driven to these trajectories by the velocity controller. The result
+represents an approximate force control, as it is not extremely accurate. The following
+gif show the force controller attempting to maintain a 0 Newton force in the x direction
+(relative to Sawyer's base frame). Note how Sawyer attempts to move away from my
+hand as I try to apply force to the end effector.
+
+<!-- Force Control Gif -->
 
 
 \begin{equation}
