@@ -18,3 +18,4 @@ a stretch goal, we also programmed Baxter to replace the lid on the bottle. The
 following gifs show this package in action:
 
 * Baxter opening the detergent bottle
+![baxter helping with laundry](https://michaeltobia.github.io/public/images/baxter_opening_lid.gif)
