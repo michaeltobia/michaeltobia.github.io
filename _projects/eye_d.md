@@ -2,7 +2,7 @@
 layout: project
 title: Machine Learning - IDing using Eye Movements
 date: December 15, 2018
-image: https://michaeltobia.github.io/public/images/baxter_laundry.png
+image: https://michaeltobia.github.io/public/images/eye_movements_plot.png
 permalink: "/eye_d.html"
 ---
 
