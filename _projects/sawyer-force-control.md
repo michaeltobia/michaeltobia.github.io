@@ -61,7 +61,7 @@ The result is a simulated Sawyer following an end effector trajectory described
 in `traj_gen.py`, as seen below.
 
 <!-- SIMULATOR GIF -->
-![testgif](https://www.doggifpage.com/gifs/155.gif)
+![testgif](https://www.doggifpage.com/gifs/155.gif){: .center-image }
 
 
 #### 3. Sawyer Velocity Control
