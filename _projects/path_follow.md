@@ -22,3 +22,5 @@ following vehicle. An android phone calculated the desired control messages by u
 a computer vision algorithm to detect the line. These messages were sent via USB
 OTG connection to the PIC32. The following gif shows the path following vehicle
 in its later stages of testing.
+
+![Path following robot behaving badly](https://michaeltobia.github.io/public/images/path_follow_demo.gif)
