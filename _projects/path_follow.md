@@ -2,7 +2,7 @@
 layout: project
 title: Mechatronics - Path Follower
 date: December 15, 2018
-image: https://michaeltobia.github.io/public/images/baxter_laundry.png
+image: https://michaeltobia.github.io/public/images/path_follower_project.jpg
 permalink: "/path_follow.html"
 ---
 
