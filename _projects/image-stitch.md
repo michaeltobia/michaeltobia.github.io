@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Machine Vision - Image Stitch
+title: Computer Vision - Image Stitch
 date: December 15, 2018
 image: https://michaeltobia.github.io/public/images/image_stitch_project.png
 permalink: "/image-stitch.html"
