@@ -148,7 +148,7 @@ V_{e} =[ Ad_{X^{-1} X_{d}}] V_{d} -V
 two parts, the first being inertial effects and the second being a combination
 of gravity and Coriolis effects, as follows
 \begin{equation}
-V_{e} =[ Ad_{X^{-1} X_{d}}] V_{d} -V
+F_{b}
 \end{equation}
 
 <!-- F_{b} =\Lambda ( \theta) \dot{V}_{b} +\eta ( \theta ,V_{b}) -->
@@ -160,7 +160,7 @@ related to the robot's joints through the body jacobian)
 
 \begin{equation}
 \tau =J^{T}_{b}( \theta ) F_{b}
-\begin{equation}
+\end{equation}
 
 * Using an approximations of the robot's dynamic properties, we can wrap a control
 law around the task space dynamics and multiply that law by the psuedoinverse of
