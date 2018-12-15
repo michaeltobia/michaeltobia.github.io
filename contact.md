@@ -2,7 +2,7 @@
 layout: contact
 path: /contact
 url: index.html
-image: http://unsplash.it/400?random
+image: https://michaeltobia.github.io/public/images/headshot_1.JPG
 ---
 
 ## Contact Info
