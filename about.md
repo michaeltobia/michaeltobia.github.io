@@ -2,7 +2,7 @@
 layout: about
 path: /about
 url: index.html
-image: public/images/headshot_0.JPG
+image: https://michaeltobia.github.io/public/images/headshot_0.JPG
 ---
 
 ## About Me
