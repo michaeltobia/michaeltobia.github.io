@@ -106,7 +106,13 @@ the controls described on this page, as described as well in the code comments.
 end effector position and rotation by calculating the difference between the current position
 and the desired position, applying a control law to the calculated error, and sending commands
 to change the speed of each joint on the robot. To summarize the control law:
-* Given a current end effector configuration $$ X( t) \in SE( 3) $$
+* Given a current end effector configuration $$ X( t) \in SE( 3) $$ and a desired
+end effector configuration $$ X_{d}( t) \in SE( 3) $$, error is calculated as a
+twist would take the end effector from $$ X $$ to $$ X_{d} $$ in a single unit time,
+defined as
+\begin{equation}
+[ X_{e}] =\log\left( X^{-1} X_{d}\right) ;[ X_{e}] \in se( 3)
+\end{equation}
 
 
 \begin{equation}
