@@ -147,13 +147,11 @@ V_{e} =[ Ad_{X^{-1} X_{d}}] V_{d} -V
 * The task space dynamics, or the dynamics of the robot are represented in
 two parts, the first being inertial effects and the second being a combination
 of gravity and Coriolis effects, as follows
-
 \begin{equation}
-<!-- F_{b} =\Lambda ( \theta) \dot{V}_{b} +\eta ( \theta ,V_{b}) -->
-F_{b} =
-<!-- \Lambda ( \theta) \dot{V}_{b} +\eta ( \theta ,V_{b}) -->
-
+V_{e} =[ Ad_{X^{-1} X_{d}}] V_{d} -V
 \end{equation}
+
+<!-- F_{b} =\Lambda ( \theta) \dot{V}_{b} +\eta ( \theta ,V_{b}) -->
 
 * We can calculate each joints torques using the psuedoinverse of the body
 jacobian, similar to what we did to get joint velocities in velocity controls
