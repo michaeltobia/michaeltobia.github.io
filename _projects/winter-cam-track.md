@@ -2,7 +2,7 @@
 layout: project
 title: Winter Project - Cam Tracker
 date: December 15, 2018
-image: https://michaeltobia.github.io/public/images/baxter_laundry.png
+image: https://michaeltobia.github.io/public/images/cam_track_project.png
 permalink: "/winter-cam-track.html"
 ---
 
