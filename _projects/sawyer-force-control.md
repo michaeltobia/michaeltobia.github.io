@@ -3,7 +3,7 @@ layout: project
 title: Final Project - Sawyer Force Control
 date: December 15, 2018
 image: https://michaeltobia.github.io/public/images/glam-shot-800x800.png
-permalink: "sawyer-force-control.html"
+permalink: "/sawyer-force-control.html"
 ---
 
 # Sawyer Force Control

@@ -3,7 +3,7 @@ title:              Portfolio - Michael Tobia
 email:              michaeledwardtobia@gmail.com
 description:        "Welcome to my portfolio!"
 url:                "http://michaeltobia.github.io"
-baseurl:            /michaeltobia.github.io
+baseurl:            /
 
 # File structure settings
 image_path:         /public/images
