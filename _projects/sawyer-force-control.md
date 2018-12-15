@@ -46,9 +46,11 @@ attach the plates to Sawyer and the F/T sensor. A plastic spherical knob was
 threaded on to an M10 threaded rod attached to the bottom adapter plate on the
 F/T sensor. This allows for smooth contact of surfaces with minimal friction and
 clean force readings, since the applied force is always perpendicular to the sphere.
-The full adapter plate and F/T sensor assembly can be seen below.
+The full adapter plate and F/T sensor assembly can be seen below attached to
+Sawyer's wrist.
 
 <!-- FORCE SENSOR AND ADAPTER PLATE IMAGE -->
+![ATI Axia 80 Force-Torque sensor attached to Sawyer using custom mounting plates](https://michaeltobia.github.io/public/images/sensor_mounted.png)
 
 #### 2. Control Simulator
 Running `sim_vel_ctrl.launch` opens the simulator portion of this package. In
