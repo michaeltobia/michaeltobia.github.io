@@ -113,11 +113,20 @@ defined as
 \begin{equation}
 [ X_{e}] =\log\left( X^{-1} X_{d}\right) ;[ X_{e}] \in se( 3)
 \end{equation}
-
-
+* Using this error, we can apply the following control law to calculate our desired
+body twist that will drive our end effector to the desired position.
 \begin{equation}
 \ V_{b}( t) =[ Ad_{X^{-1} X_{d}}] V_{d}( t) +K_{p} X_{e}( t) +K_{i} \int X_{e}( t) dt
 \end{equation}
+* Finally, the commanded joint velocities are calculated using inverse kinematics by
+multiplying our body twist the inverse of the robot's psuedojacobian.
+\begin{equation}
+\dot{\theta } =J^{\dagger }( \theta ) V_{b}
+\end{equation}
+* These velocities are sent to the robot, then the end effector position is calculated
+and fed back into the system and the whole process loops like that forever.
+
+
 
 \begin{equation}
 where...\ [ X_{e}] =\log\left( X^{-1} X_{d}\right) ;[ X_{e}] \in se( 3)
