@@ -155,7 +155,7 @@ V_{e} =[ Ad_{X^{-1} X_{d}}] V_{d} -V
 two parts, the first being inertial effects and the second being a combination
 of gravity and Coriolis effects, as follows
 \begin{equation}
-F_{b} =\Lambda( \theta) \dot{V}_{b}
+F_{b} =\Lambda( \theta) \dot{V}_{b} +\eta 
 \end{equation}
 
 <!-- F_{b} =\Lambda ( \theta) \dot{V}_{b} +\eta ( \theta ,V_{b}) -->
@@ -166,7 +166,7 @@ jacobian, similar to what we did to get joint velocities in velocity controls
 related to the robot's joints through the body jacobian)
 
 \begin{equation}
-\tau =J^{T}_{b}( \theta ) F_{b}
+\tau =J^{T}_{b}( \theta) F_{b}
 \end{equation}
 
 * Using an approximations of the robot's dynamic properties, we can wrap a control
