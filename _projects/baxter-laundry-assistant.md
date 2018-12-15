@@ -8,7 +8,8 @@ permalink: "/baxter-laundry-assistant.html"
 
 This project was completed by me and a group of four other classmates for our
 Embedded Systems in Robotics course at Northwestern. This class strongly focused
-on the use of ROS in robotic applications.
+on the use of ROS in robotic applications. If you would like to read more about
+this project, please find its GitHub repository [here](https://github.com/am2512/baxter_final_project)
 
 In this project, Baxter was programmed to locate a large detergent bottle,
 grasp the bottle's lid, unscrew the lid, and finally remove the bottle lid. As
