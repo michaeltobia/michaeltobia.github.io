@@ -6,17 +6,18 @@ image: https://michaeltobia.github.io/public/images/cam_track_project.jpg
 permalink: "/winter-cam-track.html"
 ---
 
-## Overview
-Lorem ipsum dolor sit amet, tota primis copiosae id quo. Melius eligendi elaboraret pri et, eam menandri platonem te. Tollit iudicabit gloriatur per ad. Ad diceret recteque eum, eu commodo petentium qui. No aliquid delectus eam, dicta eripuit convenire te nec. Vix no veritus dignissim. Erat ferri veniam ut eos, pro ex eius error intellegat, his te graecis oporteat honestatis.
+This was a project that I worked on for the winter project requirement of my
+Master's in Robotics degree at Northwestern. The goal was to use a high-speed,
+global shutter camera mounted on two servos to track a thrown object. Stretch
+goals were to be able to predict the trajectory of a thrown object, and have Sawyer
+intercept this trajcetory, effectively catching the thrown object.
 
-### Topic 1
-His nemore audiam consequat ad, no augue choro assueverit mei. Zril offendit tincidunt ne quo. At commodo integre alienum sea, cu vocent fuisset suscipit nam. Eum ex tation omnesque adversarium, mutat autem putant te nam. Id vix facilis complectitur, vis vitae vivendo euripidis ea, fugit eirmod an vix.
+The most crucial piece of hardware used in this project was by far the camera,
+an mvBlueFox-MLC200w Board-level, global suhtter, gray scale video camera. I attached
+a 35mm lens to the camera for this project. The view from the camera's POV can be seen
+below.
 
-### Topic 2
-Ad case nemore equidem mea. Duo te iuvaret appetere appellantur, sint scaevola usu cu. Eum ne aeque ridens prompta. At legendos vulputate eos, pro illum iuvaret cu, ludus vituperata usu no.
+![A speedy view from the mvBlueFox camera](https://michaeltobia.github.io/public/images/4-8-16ft_focusTest_35mmFL_3mmSpacer.jpg)
 
-### Topic 3
-Mel magna discere in. Mea ea dicit homero perfecto. Eam nulla facete scribentur in. Vide volutpat laboramus est cu, usu cu impetus dignissim. Ex pro decore impetus. Ius nihil iisque deterruisset an, ex sanctus verterem his. Doming prompta insolens est ut.
-
-### Topic 4
-Quod etiam pri ea, habemus electram ea eos, propriae insolens ea qui. Pro no mollis vituperatoribus. Augue quando delicatissimi ex per, vel ea vidisse dolorem eleifend. Has te aliquid senserit, reque soleat sed ea. At bonorum facilisis disputando est, error tantas appetere nec te. Mel in nobis animal.
+In its current state, this project requires much more work. If you are interested in reading more
+about it, please fine its README and GitHub repo [here](https://github.com/michaeltobia/pan_tilt_tracker)
