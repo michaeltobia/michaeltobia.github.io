@@ -10,7 +10,7 @@ image: https://michaeltobia.github.io/public/images/headshot_0.JPG
 Hello!
 
 Welcome to my portfolio. My name is Michael Tobia. If you would like to view
-my resume, please find it [here](michaeltobia.github.io/public/documents/MichaelTobia_Resume_December2018.pdf).
+my resume, please find it [here](https://michaeltobia.github.io/public/documents/MichaelTobia_Resume_December2018.pdf).
 I am a recent graduate from Northwestern University, where I earned my Masters in Robotics.
 Here you will find a collection of my projects and my professional information. My projects and
 studies cover a wide range of subjects, but typically focus on computer vision,
