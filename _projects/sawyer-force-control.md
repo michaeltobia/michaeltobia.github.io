@@ -97,7 +97,7 @@ hand as I try to apply force to the end effector.
 
 
 ## Some Concepts
-#### Velocity Control
+#### Task Space Velocity Control
 The control nodes implemented in this project are largely based off of Chapter
 11 in Modern Robotics by Dr. Kevin Lynch. Specifically, they're based off the book's
 definition of task-space control. Minus the use of quaternions, the code closely mimics
@@ -124,7 +124,34 @@ multiplying our body twist the inverse of the robot's psuedojacobian.
 \dot{\theta } =J^{\dagger }( \theta ) V_{b}
 \end{equation}
 * These velocities are sent to the robot, then the end effector position is calculated
-and fed back into the system and the whole process loops like that forever.
+and fed back into the system and the whole process loops like that forever. Of course,
+if the end effector has reached the desired position, then the commanded joint velocities
+will all be 0.
+
+#### Task Space Torque Control
+* Similar in execution to task space velocity control, this control method takes
+the robot's dynamic properties into account. Since torque applied to one joint will
+effect the movement of the entire robot in real world situations, inertial properties,
+along with gravity, and Coriolis effect must be taken into account for the most precise
+controls, of which this project does not make use, but would benefit greatly from.
+* Torque control begins by measuring the task space error in the end effector
+configuration as done for velocity control
+\begin{equation}
+[ X_{e}] =\log\left( X^{-1} X_{d}\right) ;[ X_{e}] \in se( 3)
+\end{equation}
+* Current task space velocity error can also be measured and used in the derivative
+portion of this control law
+\begin{equation}
+V_{e} =[ Ad_{X^{-1} X_{d}}] V_{d} -V
+\end{equation}
+* The task space dynamics, or the dynamics of the robot are represented in
+two parts, the first being inertial effects and the second being a combination
+of gravity and Coriolis effects, as follows
+\begin{equation}
+F_{b} =\Lambda ( \theta ) \dot{V}_{b} +\eta ( \theta ,V_{b})
+\end{equation}
+*
+
 
 
 
