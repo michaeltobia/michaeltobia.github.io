@@ -6,8 +6,6 @@ image: https://michaeltobia.github.io/public/images/baxter_laundry.png
 permalink: "/baxter-laundry-assistant.html"
 ---
 
-# Baxter - Laundry Assistant
-
 This project was completed by me and a group of four other classmates for our
 Embedded Systems in Robotics course at Northwestern. This class strongly focused
 on the use of ROS in robotic applications.
