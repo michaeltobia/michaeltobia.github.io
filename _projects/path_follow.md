@@ -15,4 +15,10 @@ This course was incredibly engaging. The focus on mechatronics meant the path
 following vehicle was designed from scratch right down to the circuit board,
 below:
 
-![My pic32 microcontroller board]
+![My pic32 microcontroller board](https://michaeltobia.github.io/public/images/pic32.jpg)
+
+This microcontroller, a PIC32 programmed in C, was used to control the motors on the path
+following vehicle. An android phone calculated the desired control messages by using
+a computer vision algorithm to detect the line. These messages were sent via USB
+OTG connection to the PIC32. The following gif shows the path following vehicle
+in its later stages of testing.
