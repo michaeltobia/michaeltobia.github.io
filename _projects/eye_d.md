@@ -6,7 +6,7 @@ image: https://michaeltobia.github.io/public/images/eye_movements_plot.png
 permalink: "/eye_d.html"
 ---
 
-#Machine Learning: Identification through eye tracking biometrics
+## Machine Learning: Identification through eye tracking biometrics
 
 This was a project completed by me and a fellow classmate for our Machine Learning
 class at Northwestern. The project goal, based off the 2012 and 2014 EMVIC competitions,
