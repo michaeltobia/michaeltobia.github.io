@@ -95,7 +95,12 @@ gif show the force controller attempting to maintain a 0 Newton force in the x d
 hand as I try to apply force to the end effector.
 
 <!-- Force Control Gif -->
-![testgif](https://www.doggifpage.com/gifs/104.gif)
+![A demo of the unidirectional_force_control launch file](https://michaeltobia.github.io/public/images/force_ctrl_demo_1.gif)
+
+ * Here's the same launch file running with some more aggressive control gains on both the
+ force and motion proportional controls
+
+![A more agressive demo of the unidirectional_force_control launch file](https://michaeltobia.github.io/public/images/force_ctrl_demo_2.gif)
 
 
 ## Some Concepts
