@@ -6,4 +6,15 @@ image: https://michaeltobia.github.io/public/images/baxter_laundry.png
 permalink: "/baxter-laundry-assistant.html"
 ---
 
-### Stuff
+# Baxter - Laundry Assistant
+
+This project was completed by me and a group of four other classmates for our
+Embedded Systems in Robotics course at Northwestern. This class strongly focused
+on the use of ROS in robotic applications.
+
+In this project, Baxter was programmed to locate a large detergent bottle,
+grasp the bottle's lid, unscrew the lid, and finally remove the bottle lid. As
+a stretch goal, we also programmed Baxter to replace the lid on the bottle. The
+following gifs show this package in action:
+
+* Baxter opening the detergent bottle
