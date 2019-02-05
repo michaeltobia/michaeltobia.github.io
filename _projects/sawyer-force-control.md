@@ -52,9 +52,6 @@ The full adapter plate and F/T sensor assembly can be seen below attached to
 Sawyer's wrist.
 
 <!-- FORCE SENSOR AND ADAPTER PLATE IMAGE -->
-<!-- <div style="text-align:center">
-![ATI Axia 80 Force-Torque sensor attached to Sawyer using custom mounting plates](https://michaeltobia.github.io/public/images/sensor_mounted.jpg)
-</div> -->
 <div style="text-align:center">
 <img src ="https://michaeltobia.github.io/public/images/sensor_mounted.jpg" alt="ATI Axia 80 Force-Torque sensor attached to Sawyer using custom mounting plates"/>
 </div>
@@ -71,7 +68,7 @@ in `traj_gen.py`, as seen below.
 
 <!-- SIMULATOR GIF -->
 <div style="text-align:center">
-![A demo of the sim_vel_ctrl launch file](https://michaeltobia.github.io/public/images/sim_demo.gif)
+<img src ="https://michaeltobia.github.io/public/images/sim_demo.gif" alt="A demo of the sim_vel_ctrl launch file"/>
 </div>
 
 #### 3. Sawyer Velocity Control
@@ -87,7 +84,7 @@ running.
 
 <!-- Velocity control gif -->
 <div style="text-align:center">
-![A demo of the sawyer_vel_ctrl launch file](https://michaeltobia.github.io/public/images/vel_ctrl_demo.gif)
+<img src ="https://michaeltobia.github.io/public/images/vel_ctrl_demo.gif" alt="A demo of the sawyer_vel_ctrl launch file"/>
 </div>
 
 #### 4. Sawyer Force Control
@@ -106,14 +103,15 @@ hand as I try to apply force to the end effector.
 
 <!-- Force Control Gif -->
 <div style="text-align:center">
-![A demo of the unidirectional_force_control launch file](https://michaeltobia.github.io/public/images/force_ctrl_demo_1.gif)
+<img src ="https://michaeltobia.github.io/public/images/force_ctrl_demo_1.gif" alt="A demo of the unidirectional_force_control launch file"/>
 </div>
 
 * Here's the same launch file running with some more aggressive control gains on both the
 force and motion proportional controls
 
+<!-- Agressive Force Control Gif -->
 <div style="text-align:center">
-![A more agressive demo of the unidirectional_force_control launch file](https://michaeltobia.github.io/public/images/force_ctrl_demo_2.gif)
+<img src ="https://michaeltobia.github.io/public/images/force_ctrl_demo_2.gif" alt="A more agressive demo of the unidirectional_force_control launch file"/>
 </div>
 
 ## Some Concepts
@@ -215,4 +213,4 @@ $$\tau =J^{T}_{b}( \theta ) \left( \tilde{\Lambda }( \theta ) \left(\frac{d}{dt}
 </div>
 {% endraw %}
 
-* testing....9
+* testing....10
