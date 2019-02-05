@@ -55,7 +55,9 @@ Sawyer's wrist.
 <!-- <div style="text-align:center">
 ![ATI Axia 80 Force-Torque sensor attached to Sawyer using custom mounting plates](https://michaeltobia.github.io/public/images/sensor_mounted.jpg)
 </div> -->
-<div style="text-align:center"><img src ="https://michaeltobia.github.io/public/images/sensor_mounted.jpg" /></div>
+<div style="text-align:center">
+<img src ="https://michaeltobia.github.io/public/images/sensor_mounted.jpg" alt="ATI Axia 80 Force-Torque sensor attached to Sawyer using custom mounting plates"/>
+</div>
 
 #### 2. Control Simulator
 Running `sim_vel_ctrl.launch` opens the simulator portion of this package. In
@@ -213,4 +215,4 @@ $$\tau =J^{T}_{b}( \theta ) \left( \tilde{\Lambda }( \theta ) \left(\frac{d}{dt}
 </div>
 {% endraw %}
 
-* testing....8
+* testing....9
