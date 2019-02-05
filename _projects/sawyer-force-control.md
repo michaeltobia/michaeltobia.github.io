@@ -119,19 +119,31 @@ to change the speed of each joint on the robot. To summarize the control law:
 end effector configuration $$ X_{d}( t) \in SE( 3) $$, error is calculated as a
 twist would take the end effector from $$ X $$ to $$ X_{d} $$ in a single unit time,
 defined as
-\begin{equation}
-[ X_{e}] =\log\left( X^{-1} X_{d}\right) ;[ X_{e}] \in se( 3)
-\end{equation}
+
+{% raw %}
+<div style="text-align:center">
+$$[ X_{e}] =\log\left( X^{-1} X_{d}\right) ;[ X_{e}] \in se( 3)$$
+</div>
+{% endraw %}
+
 * Using this error, we can apply the following control law to calculate our desired
 body twist that will drive our end effector to the desired position.
-\begin{equation}
-\ V_{b}( t) =[ Ad_{X^{-1} X_{d}}] V_{d}( t) +K_{p} X_{e}( t) +K_{i} \int X_{e}( t) dt
-\end{equation}
+
+{% raw %}
+<div style="text-align:center">
+$$\ V_{b}( t) =[ Ad_{X^{-1} X_{d}}] V_{d}( t) +K_{p} X_{e}( t) +K_{i} \int X_{e}( t) dt$$
+</div>
+{% endraw %}
+
 * Finally, the commanded joint velocities are calculated using inverse kinematics by
 multiplying our body twist the inverse of the robot's psuedojacobian.
-\begin{equation}
-\dot{\theta } =J^{\dagger }( \theta ) V_{b}
-\end{equation}
+
+{% raw %}
+<div style="text-align:center">
+$$\dot{\theta } =J^{\dagger }( \theta ) V_{b}$$
+</div>
+{% endraw %}
+
 * These velocities are sent to the robot, then the end effector position is calculated
 and fed back into the system and the whole process loops like that forever. Of course,
 if the end effector has reached the desired position, then the commanded joint velocities
@@ -145,19 +157,26 @@ along with gravity, and Coriolis effect must be taken into account for the most 
 controls, of which this project does not make use, but would benefit greatly from.
 * Torque control begins by measuring the task space error in the end effector
 configuration as done for velocity control
-\begin{equation}
-[ X_{e}] =\log\left( X^{-1} X_{d}\right) ;[ X_{e}] \in se( 3)
-\end{equation}
+
+{% raw %}
+<div style="text-align:center">
+$$[ X_{e}] =\log\left( X^{-1} X_{d}\right) ;[ X_{e}] \in se( 3)$$
+</div>
+{% endraw %}
+
 * Current task space velocity error can also be measured and used in the derivative
 portion of this control law
+
 {% raw %}
 <div style="text-align:center">
 $$V_{e} =[ Ad_{X^{-1} X_{d}}] V_{d} -V$$
 </div>
 {% endraw %}
+
 * The task space dynamics, or the dynamics of the robot are represented in
 two parts, the first being inertial effects and the second being a combination
 of gravity and Coriolis effects, as follows
+
 {% raw %}
 <div style="text-align:center">
 $$F_{b} =\Lambda\left( \theta\right) \dot{V}_{b} +\eta\left( \theta, V_{b}\right)$$
@@ -169,16 +188,20 @@ jacobian, similar to what we did to get joint velocities in velocity controls
 (this is a good way to visualize how end effector velocities and forces are
 related to the robot's joints through the body jacobian)
 
-\begin{equation}
-\tau =J^{T}_{b}( \theta) F_{b}
-\end{equation}
+{% raw %}
+<div style="text-align:center">
+$$\tau =J^{T}_{b}( \theta) F_{b}$$
+</div>
+{% endraw %}
 
 * Using an approximations of the robot's dynamic properties, we can wrap a control
 law around the task space dynamics and multiply that law by the psuedoinverse of
 the body jacobian to get the torque commands that will be sent to the robot as follows
 
-\begin{equation}
-\tau =J^{T}_{b}( \theta ) \left( \tilde{\Lambda }( \theta ) \left(\frac{d}{dt}\left(\left[ Ad_{X^{-1} X_{d}}\right] V_{d}\right) +K_{p} X_{e} +K_{i} \int X_{e}( t) dt+K_{d} V_{e}\right) +\tilde{\eta }( \theta ,V_{b})\right)
-\end{equation}
+{% raw %}
+<div style="text-align:center">
+$$\tau =J^{T}_{b}( \theta ) \left( \tilde{\Lambda }( \theta ) \left(\frac{d}{dt}\left(\left[ Ad_{X^{-1} X_{d}}\right] V_{d}\right) +K_{p} X_{e} +K_{i} \int X_{e}( t) dt+K_{d} V_{e}\right) +\tilde{\eta }( \theta ,V_{b})\right)$$
+</div>
+{% endraw %}
 
-* testing....5
+* testing....6
