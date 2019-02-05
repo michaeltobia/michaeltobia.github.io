@@ -157,9 +157,10 @@ V_{e} =[ Ad_{X^{-1} X_{d}}] V_{d} -V
 two parts, the first being inertial effects and the second being a combination
 of gravity and Coriolis effects, as follows
 {% raw %}
-\begin{equation}
+<!-- \begin{equation}
 F_{b} =\Lambda\left( \theta\right) \dot{V}_{b} +\eta\left( \theta, V_{b}\right)
-\end{equation}
+\end{equation} -->
+$$F_{b} =\Lambda\left( \theta\right) \dot{V}_{b} +\eta\left( \theta, V_{b}\right)$$
 {% endraw %}
 
 * We can calculate each joints torques using the psuedoinverse of the body
