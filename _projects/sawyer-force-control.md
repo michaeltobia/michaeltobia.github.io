@@ -178,3 +178,5 @@ the body jacobian to get the torque commands that will be sent to the robot as f
 \begin{equation}
 \tau =J^{T}_{b}( \theta ) \left( \tilde{\Lambda }( \theta ) \left(\frac{d}{dt}\left(\left[ Ad_{X^{-1} X_{d}}\right] V_{d}\right) +K_{p} X_{e} +K_{i} \int X_{e}( t) dt+K_{d} V_{e}\right) +\tilde{\eta }( \theta ,V_{b})\right)
 \end{equation}
+
+* testing...
