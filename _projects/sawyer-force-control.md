@@ -160,8 +160,6 @@ of gravity and Coriolis effects, as follows
 F_{b} =\Lambda\( \theta) \dot{V}_{b} +\eta\left( \theta, V_{b}\right)
 \end{equation}
 
-<!-- F_{b} =\Lambda ( \theta) \dot{V}_{b} +\eta ( \theta ,V_{b}) -->
-
 * We can calculate each joints torques using the psuedoinverse of the body
 jacobian, similar to what we did to get joint velocities in velocity controls
 (this is a good way to visualize how end effector velocities and forces are
