@@ -160,7 +160,9 @@ of gravity and Coriolis effects, as follows
 <!-- \begin{equation}
 F_{b} =\Lambda\left( \theta\right) \dot{V}_{b} +\eta\left( \theta, V_{b}\right)
 \end{equation} -->
+<div style="text-align:center">
 $$F_{b} =\Lambda\left( \theta\right) \dot{V}_{b} +\eta\left( \theta, V_{b}\right)$$
+</div>
 {% endraw %}
 
 * We can calculate each joints torques using the psuedoinverse of the body
