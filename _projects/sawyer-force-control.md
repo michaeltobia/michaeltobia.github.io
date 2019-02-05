@@ -52,7 +52,9 @@ The full adapter plate and F/T sensor assembly can be seen below attached to
 Sawyer's wrist.
 
 <!-- FORCE SENSOR AND ADAPTER PLATE IMAGE -->
+<div style="text-align:center">
 ![ATI Axia 80 Force-Torque sensor attached to Sawyer using custom mounting plates](https://michaeltobia.github.io/public/images/sensor_mounted.jpg)
+</div>
 
 #### 2. Control Simulator
 Running `sim_vel_ctrl.launch` opens the simulator portion of this package. In
@@ -65,8 +67,9 @@ The result is a simulated Sawyer following an end effector trajectory described
 in `traj_gen.py`, as seen below.
 
 <!-- SIMULATOR GIF -->
+<div style="text-align:center">
 ![A demo of the sim_vel_ctrl launch file](https://michaeltobia.github.io/public/images/sim_demo.gif)
-
+</div>
 
 #### 3. Sawyer Velocity Control
 After connecting to Sawyer, running `sawyer_vel_ctrl.launch` begins a velocity
@@ -80,7 +83,9 @@ to prevent accidents. The following gif is a short example of this velocity cont
 running.
 
 <!-- Velocity control gif -->
+<div style="text-align:center">
 ![A demo of the sawyer_vel_ctrl launch file](https://michaeltobia.github.io/public/images/vel_ctrl_demo.gif)
+</div>
 
 #### 4. Sawyer Force Control
 After connecting to both Sawyer and the F/T sensor (which also connects over
@@ -97,13 +102,16 @@ gif show the force controller attempting to maintain a 0 Newton force in the x d
 hand as I try to apply force to the end effector.
 
 <!-- Force Control Gif -->
+<div style="text-align:center">
 ![A demo of the unidirectional_force_control launch file](https://michaeltobia.github.io/public/images/force_ctrl_demo_1.gif)
+</div>
 
- * Here's the same launch file running with some more aggressive control gains on both the
- force and motion proportional controls
+* Here's the same launch file running with some more aggressive control gains on both the
+force and motion proportional controls
 
+<div style="text-align:center">
 ![A more agressive demo of the unidirectional_force_control launch file](https://michaeltobia.github.io/public/images/force_ctrl_demo_2.gif)
-
+</div>
 
 ## Some Concepts
 #### Task Space Velocity Control
@@ -204,4 +212,4 @@ $$\tau =J^{T}_{b}( \theta ) \left( \tilde{\Lambda }( \theta ) \left(\frac{d}{dt}
 </div>
 {% endraw %}
 
-* testing....6
+* testing....7
