@@ -157,7 +157,7 @@ V_{e} =[ Ad_{X^{-1} X_{d}}] V_{d} -V
 two parts, the first being inertial effects and the second being a combination
 of gravity and Coriolis effects, as follows
 \begin{equation}
-F_{b} =\Lambda\( \theta) \dot{V}_{b} +\eta\left( \theta, V_{b}\right)
+F_{b} =\Lambda( \theta) \dot{V}_{b} +\eta\left( \theta, V_{b}\right)
 \end{equation}
 
 * We can calculate each joints torques using the psuedoinverse of the body
@@ -166,7 +166,7 @@ jacobian, similar to what we did to get joint velocities in velocity controls
 related to the robot's joints through the body jacobian)
 
 \begin{equation}
-\tau =J^{T}_{b}( \theta ) F_{b}
+\tau =J^{T}_{b}( \theta) F_{b}
 \end{equation}
 
 * Using an approximations of the robot's dynamic properties, we can wrap a control
@@ -177,4 +177,4 @@ the body jacobian to get the torque commands that will be sent to the robot as f
 \tau =J^{T}_{b}( \theta ) \left( \tilde{\Lambda }( \theta ) \left(\frac{d}{dt}\left(\left[ Ad_{X^{-1} X_{d}}\right] V_{d}\right) +K_{p} X_{e} +K_{i} \int X_{e}( t) dt+K_{d} V_{e}\right) +\tilde{\eta }( \theta ,V_{b})\right)
 \end{equation}
 
-* testing...
+* testing....
