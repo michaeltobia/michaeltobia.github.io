@@ -150,16 +150,15 @@ configuration as done for velocity control
 \end{equation}
 * Current task space velocity error can also be measured and used in the derivative
 portion of this control law
-\begin{equation}
-V_{e} =[ Ad_{X^{-1} X_{d}}] V_{d} -V
-\end{equation}
+{% raw %}
+<div style="text-align:center">
+$$V_{e} =[ Ad_{X^{-1} X_{d}}] V_{d} -V$$
+</div>
+{% endraw %}
 * The task space dynamics, or the dynamics of the robot are represented in
 two parts, the first being inertial effects and the second being a combination
 of gravity and Coriolis effects, as follows
 {% raw %}
-<!-- \begin{equation}
-F_{b} =\Lambda\left( \theta\right) \dot{V}_{b} +\eta\left( \theta, V_{b}\right)
-\end{equation} -->
 <div style="text-align:center">
 $$F_{b} =\Lambda\left( \theta\right) \dot{V}_{b} +\eta\left( \theta, V_{b}\right)$$
 </div>
@@ -182,4 +181,4 @@ the body jacobian to get the torque commands that will be sent to the robot as f
 \tau =J^{T}_{b}( \theta ) \left( \tilde{\Lambda }( \theta ) \left(\frac{d}{dt}\left(\left[ Ad_{X^{-1} X_{d}}\right] V_{d}\right) +K_{p} X_{e} +K_{i} \int X_{e}( t) dt+K_{d} V_{e}\right) +\tilde{\eta }( \theta ,V_{b})\right)
 \end{equation}
 
-* testing....4
+* testing....5
