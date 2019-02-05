@@ -52,9 +52,10 @@ The full adapter plate and F/T sensor assembly can be seen below attached to
 Sawyer's wrist.
 
 <!-- FORCE SENSOR AND ADAPTER PLATE IMAGE -->
-<div style="text-align:center">
+<!-- <div style="text-align:center">
 ![ATI Axia 80 Force-Torque sensor attached to Sawyer using custom mounting plates](https://michaeltobia.github.io/public/images/sensor_mounted.jpg)
-</div>
+</div> -->
+<div style="text-align:center"><img src ="https://michaeltobia.github.io/public/images/sensor_mounted.jpg" /></div>
 
 #### 2. Control Simulator
 Running `sim_vel_ctrl.launch` opens the simulator portion of this package. In
@@ -212,4 +213,4 @@ $$\tau =J^{T}_{b}( \theta ) \left( \tilde{\Lambda }( \theta ) \left(\frac{d}{dt}
 </div>
 {% endraw %}
 
-* testing....7
+* testing....8
