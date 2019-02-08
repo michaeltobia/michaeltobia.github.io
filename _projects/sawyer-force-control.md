@@ -252,3 +252,5 @@ and vice versa
 * Force control is implemented by applying a motion control scheme (e.g. velocity  torque control, as explained above) along directions where artificial constraints specify a motion and a force control scheme along directions where our artificial constraints specify a force (or moment, or both) to be applied.
 
 * In this project, as can be seen in the gifs above, Sawyer's end effector is held in place until a contact force is registered. Then, depending on the set up in the control node, Sawyer will attempt to drive the applied force to 0, effectively avoiding contact, or act against the contact to drive the force along the end effector to a specified value.
+
+* This implementation is similar to other hybrid Force-Motion control implementations through its use of Hooke's Law, where the contact surface is modeled as a spring with a specified stiffness. Adjusting this surface stiffness effectively adjusts the force control loop's proportional gain.
