@@ -20,4 +20,4 @@ below.
 ![A speedy view from the mvBlueFox camera](https://michaeltobia.github.io/public/images/4-8-16ft_focusTest_35mmFL_3mmSpacer.jpg)
 
 In its current state, this project requires much more work. If you are interested in reading more
-about it, please fine its README and GitHub repo [here](https://github.com/michaeltobia/pan_tilt_tracker)
+about it, please find its README and GitHub repo [here](https://github.com/michaeltobia/pan_tilt_tracker)
