@@ -249,3 +249,5 @@ and vice versa
     * Note that these artificial motion constraints correspond to natural force constraints, just as the artificial force constraints of $$f_{x}, f_{y}, n_{x}, n_{y} = 0$$ correspond to our natural motion constraints
 
 * In effect, this is a very long winded way of applying force control along directions where motion is not permitted and, conversely, applying motion control in directions where force can not be applied.
+
+* Force control is implemented by applying a motion control scheme (e.g. velocity control or torque control, as explained above) along directions where artificial constraints specify permitted motion and a force control scheme along directions where our artificial constraints allow a force (or moment, or both) to be applied.
