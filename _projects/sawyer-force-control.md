@@ -223,9 +223,7 @@ robot is applying while also controlling the motion of the robot
 * Each surface or contact scenario, such as running an eraser along a flat chalk board or
 fitting a peg into a hole, introduces constraints to how the robot may move or apply force, called natural constraints
 
-    * For instance, in the chalk board example, the robot would be unable to move its end effector through the board, but
-must also not move away from the board, or else it would no longer apply a force. This results in a natural constraint of
-zero velocity perpendicular to the board surface.
+    * For instance, in the chalk board example, the robot would be unable to move its end effector through the board, but must also not move away from the board, or else it would no longer apply a force. This results in a natural constraint of zero velocity perpendicular to the board surface.
 
 
 * Artificial constraints must be added to the force control implementation to reflect the natural constrains in each contact scenario. It is interesting to
@@ -237,8 +235,17 @@ and vice versa
     can either be constant or a force trajectory (as long as that force is applied towards the board).
 
 
-* To clarify further, please see the following figure from Introduction to Robotics: Mechanics and Control by John J. Craig
+* To clarify further, please see the following figure from Introduction to Robotics: Mechanics and Control by John J. Craig ($$n_{z}$$ in this figure refers to a moment along the $$z$$ axis)
 
 <div style="text-align:center">
-<img src ="https://michaeltobia.github.io/public/images/force_ctrl_demo_1.gif" alt="A demo of the unidirectional_force_control launch file"/>
+<img src ="https://michaeltobia.github.io/public/images/nat_art_constraints.png" alt="Natural and artificial constraints"/>
 </div>
+
+
+* In the first example from the figure above, a robot turning a crank with a spindle handle, the robot is unable to apply velocity into the crank or move up or down relative to the crank, resulting in the natural constraints $$V_{x} = 0$$ and $$V_{z} = 0$$. The robot may not also apply rotation along the X or Y axis of the \{C\} (constraint) frame, resulting in rotational velocity constraints at those axises. Similarly, since the crank and handle freely rotate, the robot may not apply a force along the tangential y axis in \{C\} or apply a moment the the spindle along the z axis in the same frame.
+
+    * We can see that the chosen artificial constraints reflect these natural constraints. A constant velocity $$r \alpha_{1}$$ is chosen to be applied in the tangential y axis, resulting in a target rotation speed of $$\alpha_{1}$$, as seen in the $$\omega_{z}$$ artificial constraint.
+
+    * Note that these artificial motion constraints correspond to natural force constraints, just as the artificial force constraints of $$f_{x}, f_{y}, n_{x}, n_{y} = 0$$ correspond to our natural motion constraints
+
+* In effect, this is a very long winded way of applying force control along directions where motion is not permitted and, conversely, applying motion control in directions where force can not be applied.
