@@ -213,4 +213,13 @@ $$\tau =J^{T}_{b}( \theta ) \left( \tilde{\Lambda }( \theta ) \left(\frac{d}{dt}
 </div>
 {% endraw %}
 
-* testing....10
+#### Force Control or Hybrid Position-Force Control
+
+* Force control, the main focus of this project, acts to control the force a
+robot is applying while also controlling the motion of the robot
+* Since a robot can not apply a force to free space, a surface is required to implement this control scheme
+* Each surface or contact scenario, such as running an eraser along a flat chalk board or
+fitting a peg into a hole, introduces constraints to how the robot may move or apply force, called natural constraints
+** For instance, in the chalk board example, the robot would be unable to move its end effector through the board, but
+must also not move away from the board, or else it would no longer apply a force. This results in a natural constraint of
+zero velocity perpendicular to the board surface.
