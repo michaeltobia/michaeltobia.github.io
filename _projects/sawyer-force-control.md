@@ -242,7 +242,7 @@ and vice versa
 </div>
 
 
-* In the first example from the figure above, a robot turning a crank with a spindle handle, the robot is unable to apply velocity into the crank or move up or down relative to the crank, resulting in the natural constraints $$V_{x} = 0$$ and $$V_{z} = 0$$. The robot may not also apply rotation along the X or Y axis of the \{C\} (constraint) frame, resulting in rotational velocity constraints at those axises. Similarly, since the crank and handle freely rotate, the robot may not apply a force along the tangential y axis in \{C\} or apply a moment the the spindle along the z axis in the same frame.
+* In the first example from the figure above, a robot turning a crank with a spindle handle, the robot is unable to apply velocity into the crank or move up or down relative to the crank, resulting in the natural constraints $$v_{x} = 0$$ and $$v_{z} = 0$$. The robot may not also apply rotation along the X or Y axis of the \{C\} (constraint) frame, resulting in rotational velocity constraints at those axises. Similarly, since the crank and handle freely rotate, the robot may not apply a force along the tangential y axis in \{C\} or apply a moment the the spindle along the z axis in the same frame.
 
     * We can see that the chosen artificial constraints reflect these natural constraints. A constant velocity $$r \alpha_{1}$$ is chosen to be applied in the tangential y axis, resulting in a target rotation speed of $$\alpha_{1}$$, as seen in the $$\omega_{z}$$ artificial constraint.
 
