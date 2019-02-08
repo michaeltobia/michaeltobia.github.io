@@ -217,9 +217,28 @@ $$\tau =J^{T}_{b}( \theta ) \left( \tilde{\Lambda }( \theta ) \left(\frac{d}{dt}
 
 * Force control, the main focus of this project, acts to control the force a
 robot is applying while also controlling the motion of the robot
+
 * Since a robot can not apply a force to free space, a surface is required to implement this control scheme
+
 * Each surface or contact scenario, such as running an eraser along a flat chalk board or
 fitting a peg into a hole, introduces constraints to how the robot may move or apply force, called natural constraints
-** For instance, in the chalk board example, the robot would be unable to move its end effector through the board, but
+
+    * For instance, in the chalk board example, the robot would be unable to move its end effector through the board, but
 must also not move away from the board, or else it would no longer apply a force. This results in a natural constraint of
 zero velocity perpendicular to the board surface.
+
+
+* Artificial constraints must be added to the force control implementation to reflect the natural constrains in each contact scenario. It is interesting to
+note that natural position constraints result in artificial force constraints
+and vice versa
+
+    * Referring again to the chalk board example, the natural constraint
+    of zero velocity perpendicular to the board results in an artificial constraint of an applied force also perpendicular to the board. This force
+    can either be constant or a force trajectory (as long as that force is applied towards the board).
+
+
+* To clarify further, please see the following figure from Introduction to Robotics: Mechanics and Control by John J. Craig
+
+<div style="text-align:center">
+<img src ="https://michaeltobia.github.io/public/images/force_ctrl_demo_1.gif" alt="A demo of the unidirectional_force_control launch file"/>
+</div>
